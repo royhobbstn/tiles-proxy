@@ -49,6 +49,6 @@ var redbird = require('redbird')({
 });
 
 
-redbird.register('tiles.red-meteor.com/mbtiles', 'http://red-meteor.com:4001', {
+redbird.register('tiles.red-meteor.com/mbtiles', 'http://tiles.red-meteor.com:4001', {
     ssl: true
 });
