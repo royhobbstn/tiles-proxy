@@ -1,0 +1,28 @@
+{
+  "name": "tiles-proxy",
+  "version": "0.0.1",
+  "description": "proxy for mbtiles server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/royhobbstn/tiles-proxy.git"
+  },
+  "keywords": [
+    "mbtiles",
+    "proxy"
+  ],
+  "author": "Daniel Trone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/royhobbstn/tiles-proxy/issues"
+  },
+  "homepage": "https://github.com/royhobbstn/tiles-proxy#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "http-proxy": "^1.15.2",
+    "redbird": "^0.5.2"
+  }
+}
